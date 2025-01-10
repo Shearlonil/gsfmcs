@@ -4,7 +4,6 @@ import { IoLogoWhatsapp } from "react-icons/io";
 import { CgArrowTopRight, CgProfile } from "react-icons/cg";
 import { IoStarSharp } from "react-icons/io5";
 import IMAGES from "../assets/images-export";
-import { Button } from "react-bootstrap";
 
 const Home = () => {
 	return (

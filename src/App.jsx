@@ -6,6 +6,7 @@ import AboutUs from './Routes/AboutUs'
 import CSR from './Routes/CSR'
 import Proposal from './Routes/Proposal';
 import Gallery from './Routes/Gallery'
+import Footer from './Components/Footer'
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="/gallery" element={<Gallery/>}/>
         <Route path="/join-us" element={<Proposal/>}/>
       </Routes>
+      <Footer />
     </>
   )
 }
