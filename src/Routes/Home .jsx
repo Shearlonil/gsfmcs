@@ -351,9 +351,9 @@ const Home = () => {
 								of the environment.
 							</p>
 
-							<Button size="lg" variant="warning">
+							<a className="btn btn-warning btn-lg" target="_blank" href="https://wa.me/+4915215341962">
 								Contact Us <CgArrowTopRight />
-							</Button>
+							</a>
 						</div>
 					</div>
 					<div className="col-12 col-md-6">

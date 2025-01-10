@@ -29,6 +29,11 @@ const IMAGES = {
 	staff: new URL("../assets/svg/staff.svg", import.meta.url).href,
 	signboard: new URL("../assets/svg/signboard.svg", import.meta.url).href,
 	clients: new URL("../assets/svg/clients.svg", import.meta.url).href,
+	medal: new URL("../assets/svg/medal.svg", import.meta.url).href,
+	partners: new URL("../assets/svg/partners.svg", import.meta.url).href,
+	handShake: new URL("../assets/svg/hand_shake.svg", import.meta.url).href,
+	WhiteHandShake: new URL("../assets/svg/hand_shake_white.svg", import.meta.url).href,
+	objective: new URL("../assets/svg/objective.svg", import.meta.url).href,
 };
 
 export default IMAGES;

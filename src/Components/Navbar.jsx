@@ -52,7 +52,7 @@ function NavBar() {
 						<Nav.Link
 							onClick={() => {
 								handleNavSelect();
-								// navigate("/cashier-window");
+								navigate("/join-us");
 							}}
 						>
 							<span className="navy-blue">Join Us</span>
@@ -60,7 +60,7 @@ function NavBar() {
 						<Nav.Link
 							onClick={() => {
 								handleNavSelect();
-								// navigate("/cashier-window");
+								navigate("/csr");
 							}}
 						>
 							<span className="navy-blue">CSR</span>
@@ -69,7 +69,7 @@ function NavBar() {
 						<Nav.Link
 							onClick={() => {
 								handleNavSelect();
-								// navigate("/acct-voucher-creation");
+								navigate("/gallery");
 							}}
 						>
 							<span className="navy-blue">Gallery</span>
