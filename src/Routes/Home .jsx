@@ -221,7 +221,7 @@ const Home = () => {
 									<IoStarSharp className="text-warning" />
 								</span>
 								<p className="text-primary fw-bold">
-									Due to the input in modern techonogies and machineries used by GSFMCS, their cleaning prowess is second to none
+									I've seen and witnessed several cleaning companies but the professional services rendered by GSFMCS is the best so far.
 								</p>
 							</div>
 						</div>
