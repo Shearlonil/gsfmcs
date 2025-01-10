@@ -10,20 +10,25 @@ const Home = () => {
 	return (
 		<>
 			<Showcase>
-				<div className="container text-center">
-					<h1 className="display-3 mb-5 sora-font fw-bold">
-						Bringing to you{" "}
-						<br />
-						<span className="text-warning fw-bold">NEXT LEVEL</span><br /> in <br /> 
-						<span className="text-warning fw-bold">Facility Management</span>{" "}
-					</h1>
-					<p className="">
-						Professional facility management and cleaning services at your finger tips
-					</p>
-					<a className="btn btn-danger p-3 mt-4" target="_blank" href="https://wa.me/+4915215341962">
-						<span className='pe-3'>Chat with us</span>
-						<IoLogoWhatsapp size="28" />
-					</a>
+				<div className="container">
+					<div className="row">
+						<div className="col-md-4 col-sm-12 p-4 d-flex flex-column align-items-center align-items-md-start justify-content-center text-center text-md-start">
+							<h1 className="display-5 sora-font fw-bold">
+								<span className="text-warning fw-bold sora-font">NEXT LEVEL</span> in <br /> 
+								<span className="text-warning fw-bold">Facility Management</span>{" "}
+							</h1>
+							<p className="">
+								Professional facility management and cleaning services at your finger tips
+							</p>
+							<a className="btn btn-warning p-3 mt-4" target="_blank" href="https://wa.me/+4915215341962">
+								<span className='pe-3'>Chat with us</span>
+								<IoLogoWhatsapp size="28" />
+							</a>
+						</div>
+						<div className="col-md-8 col-sm-12">
+							<img src={IMAGES.aiGeneratedCleaningMachingTwo} width="100%" />
+						</div>
+					</div>
 				</div>
 			</Showcase>
 
