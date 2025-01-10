@@ -70,9 +70,9 @@ const Home = () => {
 									Our Corporate Social Responsiblity
 								</p>
 								<p>
-								God Son Facility Management and Consultancy Services (GSFMCS) is a
-								frontrunner in encouraging young talented Athletes to making
-								their social and private life better and secured.
+									God Son Facility Management and Consultancy Services (GSFMCS) is a
+									frontrunner in encouraging young talented Athletes to making
+									their social and private life better and secured.
 								</p>
 								<a href="" className="btn btn-success">View CSR</a>
 							</div>
