@@ -7,6 +7,7 @@ import CSR from './Routes/CSR'
 import Proposal from './Routes/Proposal';
 import Gallery from './Routes/Gallery'
 import Footer from './Components/Footer'
+import  './utils/i18n';
 
 function App() {
   return (

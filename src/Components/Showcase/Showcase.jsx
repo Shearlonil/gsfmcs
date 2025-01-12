@@ -11,7 +11,7 @@ const Showcase = ({ children, height, bg_image, justify, align }) => {
       bg_image={
         bg_image || IMAGES.image1
       }
-      height={height || "80vh"}
+      height={height || "90vh"}
     >
       {children}
     </ShowcaseWrapper>

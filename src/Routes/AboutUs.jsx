@@ -91,7 +91,7 @@ const AboutUs = () => {
                         <p className='text-center text-md-start sora-font'>Cleaning services is a serious and dutiful business in the western world and it has gone beyond just sweeping, mopping and washing as there are new discoveries about various micro-organisms that thrive conveniently after the aforementioned cleaning processes had been carried out</p>
                         <img src={IMAGES.pinkCleaners} className='w-100' />
                     </div>
-                    <div className="col-md-6 col-sm-12 mb-3">
+                    <div className="col-md-6 col-sm-12 mb-3 d-flex flex-column justify-content-center">
                         <div className="container ps-md-3 pe-md-3">
 							<div className="row text-center text-md-start">
                                 <div className="col-md-2 col-sm-12">
@@ -99,7 +99,7 @@ const AboutUs = () => {
                                 </div>
                                 <div className="col-md-10 col-sm-12">
                                     <h5 className='fw-bold'>Work Force</h5>
-                                    <span className='mt-4'>Our branch in Germany has a work force with over 12 active workers</span>
+                                    <span className='mt-4'>Our branch in Germany is build with countless experience workers.</span>
                                     <p>We have over 25 active workers in Nigeria</p>
                                 </div>
 							</div>
@@ -121,7 +121,7 @@ const AboutUs = () => {
                                 </div>
 							</div>
 
-							<div className="row mt-4 text-center text-md-start">
+							{/* <div className="row mt-4 text-center text-md-start">
                                 <div className="col-md-2 col-sm-12">
                                     <img src={IMAGES.clients} width="50" />
                                 </div>
@@ -132,7 +132,7 @@ const AboutUs = () => {
                                         in Fellbach. Others include Fitness Club in Fellbach and Goetze Armaturen in Ludwigsburg.
                                     </p>
                                 </div>
-							</div>
+							</div> */}
                         </div>
                     </div>
                 </div>

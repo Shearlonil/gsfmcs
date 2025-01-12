@@ -1,11 +1,16 @@
 import React from "react";
-import Showcase from "../Components/Showcase/Showcase";
+import { useNavigate } from "react-router-dom";
+import { useTranslation } from 'react-i18next';  
 import { IoLogoWhatsapp } from "react-icons/io";
 import { CgArrowTopRight, CgProfile } from "react-icons/cg";
 import { IoStarSharp } from "react-icons/io5";
+import Showcase from "../Components/Showcase/Showcase";
 import IMAGES from "../assets/images-export";
 
 const Home = () => {
+	const navigate = useNavigate();
+	const { t } = useTranslation();
+
 	return (
 		<>
 			<Showcase>
@@ -13,14 +18,14 @@ const Home = () => {
 					<div className="row">
 						<div className="col-md-4 col-sm-12 p-4 d-flex flex-column align-items-center align-items-md-start justify-content-center text-center text-md-start">
 							<h1 className="display-5 sora-font fw-bold">
-								<span className="text-warning fw-bold sora-font">NEXT LEVEL</span> in <br /> 
+								<span className="text-warning fw-bold sora-font">{t('homePage.nextLevel')}</span> in <br /> 
 								<span className="text-warning fw-bold">Facility Management</span>{" "}
 							</h1>
 							<p className="">
-								Professional facility management and cleaning services at your finger tips
+								{t('homePage.paragraph')}
 							</p>
 							<a className="btn btn-warning p-3 mt-4" target="_blank" href="https://wa.me/+4915215341962">
-								<span className='pe-3'>Chat with us</span>
+								<span className='pe-3'>{t('homePage.chatWithUs')}</span>
 								<IoLogoWhatsapp size="28" />
 							</a>
 						</div>
@@ -41,23 +46,23 @@ const Home = () => {
 						<IoStarSharp className="text-warning" />
 					</span>
 					<span className="fw-bold">
-						We are simply second to none
+						{t('homePage.secondToNone')}
 					</span>
 				</div>
-				<h1 className="display-5 mb-4 sora-font fw-bold text-center">WHAT WE DO, <span className="text-danger">WE DO BEST!</span></h1>
+				<h1 className="display-5 mb-4 sora-font fw-bold text-center">{t('homePage.whatWeDo')} <span className="text-danger">{t('homePage.weDoBest')}</span></h1>
 				<div className="row">
 					<div className="col-md-4 col-sm-12 mb-3">
 						<div className="p-4 bg-light border shadow rounded-3">
 							<div className="d-flex flex-column justify-content-between" style={{minHeight: "400px"}}>
 								<img src={IMAGES.growth} width="50" />
-								<h3>Grow with us</h3>
+								<h3>{t('homePage.grow')}</h3>
 								<p>
-									Partnership proposal
+									{t('homePage.growColH')}
 								</p>
 								<p>
-									Partner with us, and together let's navigate the ever changing landscape of facility management, achieving mutual success while staying true to our core values and making a positive impact on the communities we serve.
+									{t('homePage.growColP')}
 								</p>
-								<a href="" className="btn btn-warning">View Proposal</a>
+								<a onClick={() => navigate('/join-us')} className="btn btn-warning">{t('homePage.growColBtn')}</a>
 							</div>
 						</div>
 					</div>
@@ -67,14 +72,14 @@ const Home = () => {
 								<img src={IMAGES.responsibility} width="50" />
 								<h3>C S R</h3>
 								<p>
-									Our Corporate Social Responsiblity
+									{t('homePage.csrColH')}
 								</p>
 								<p>
-									God Son Facility Management and Consultancy Services (GSFMCS) is a
-									frontrunner in encouraging young talented Athletes to making
-									their social and private life better and secured.
+									{t('homePage.csrColP')}
 								</p>
-								<a href="" className="btn btn-success">View CSR</a>
+								<a onClick={() => navigate('/csr')} className="btn btn-success">
+									{t('homePage.csrColBtn')}
+								</a>
 							</div>
 						</div>
 					</div>
@@ -82,7 +87,7 @@ const Home = () => {
 						<div className="p-4 bg-light border shadow rounded-3">
 							<div className="d-flex flex-column justify-content-between" style={{minHeight: "400px"}} >
 								<img src={IMAGES.officeBranch} width="50" />
-								<h3>Our Branches</h3>
+								<h3>{t('homePage.branches')}</h3>
 								<ul>
 									<li>
 										<h6>Nigerian Corporate Office</h6>
@@ -134,13 +139,13 @@ const Home = () => {
 							</div>
 						</div>
 					</div>
-					<div className="col-md-6 col-sm-12 mb-4 bg-light border shadow rounded-3 p-4 d-flex flex-column justify-content-center align-items-center gap-3">
+					<div className="col-md-6 col-sm-12 mb-4 bg-light border shadow rounded-3 pt-4 pb-4 d-flex flex-column justify-content-center align-items-center gap-3">
 						<div className="container ps-md-5 pe-md-5">
-							<div className="row d-flex flex-row align-items-center">
+							<div className="row d-flex flex-row align-items-center gap-1">
 									<div className="col-2">
 										<img src={IMAGES.garbageTruck} width="50" />
 									</div>
-									<div className="col-10">
+									<div className="col-9">
 										<h5>Garbage Trucks</h5>
 									</div>
 							</div>
@@ -159,11 +164,11 @@ const Home = () => {
 									</div>
 							</div>
 							<hr />
-							<div className="row d-flex flex-row align-items-center">
+							<div className="row d-flex flex-row align-items-center gap-1">
 									<div className="col-2">
 										<img src={IMAGES.vacuumClearner} width="50" />
 									</div>
-									<div className="col-10">
+									<div className="col-9">
 										<h5>Industrial Wet Vacuum Cleaners</h5>
 									</div>
 							</div>
@@ -172,7 +177,7 @@ const Home = () => {
 									<div className="col-2">
 										<img src={IMAGES.clearningTrolley} width="50" />
 									</div>
-									<div className="col-10">
+									<div className="col-9">
 										<h5>Multipurpose Cleaning Trolley</h5>
 										<ul>
 											<li>Mop kits</li>
@@ -227,47 +232,47 @@ const Home = () => {
 					</div>
 					<div className="col-md-6 col-sm-12 mb-4 bg-light border shadow rounded-3 p-4 d-flex flex-column justify-content-center align-items-center gap-3">
 						<div className="container ps-md-5 pe-md-5">
-							<div className="row d-flex flex-row align-items-center">
+							<div className="row d-flex flex-row align-items-center gap-2">
 								<div className="col-2">
 									<img src={IMAGES.cleaningChemical} width="50" />
 								</div>
-								<div className="col-10">
+								<div className="col-9">
 									<h5>Scrubbing Chemicals</h5>
 								</div>
 							</div>
 							<hr />
-							<div className="row d-flex flex-row align-items-center">
+							<div className="row d-flex flex-row align-items-center gap-2">
 								<div className="col-2">
 									<img src={IMAGES.polishChemical} width="50" />
 								</div>
-								<div className="col-10">
+								<div className="col-9">
 									<h5>Polishing Chemicals</h5>
 								</div>
 							</div>
 							<hr />
-							<div className="row d-flex flex-row align-items-center">
+							<div className="row d-flex flex-row align-items-center gap-2">
 								<div className="col-2">
 									<img src={IMAGES.varnishes} width="50" />
 								</div>
-								<div className="col-10">
+								<div className="col-9">
 									<h5>Varnishes</h5>
 								</div>
 							</div>
 							<hr />
-							<div className="row d-flex flex-row align-items-center">
+							<div className="row d-flex flex-row align-items-center gap-2">
 								<div className="col-2">
 									<img src={IMAGES.waxing} width="50" />
 								</div>
-								<div className="col-10">
+								<div className="col-9">
 									<h5>Waxing Chemicals</h5>
 								</div>
 							</div>
 							<hr />
-							<div className="row d-flex flex-row align-items-center">
+							<div className="row d-flex flex-row align-items-center gap-2">
 								<div className="col-2">
 									<img src={IMAGES.waxingTwo} width="50" />
 								</div>
-								<div className="col-10">
+								<div className="col-9">
 									<h5>Colour Protector</h5>
 								</div>
 							</div>
