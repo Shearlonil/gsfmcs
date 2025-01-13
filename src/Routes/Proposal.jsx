@@ -1,17 +1,20 @@
 import React from 'react'
-import PropTypes from 'prop-types'
+import { useTranslation } from 'react-i18next';
+
 import IMAGES from '../assets/images-export';
 
 const Proposal = props => {
+	const { t } = useTranslation();
+
     return (
         <>
             <div className='container-fluid bg-warning-subtle'>
                 <div className="container p-3 rounded-5">
                     <div className="row mb-5 d-flex mt-4 flex-row flex-md-row-reverse">
                         <div className="col-sm-12 col-md-6 d-flex flex-column justify-content-center">
-                            <h1 className='text-center text-md-start fw-bold sora-font'>PARTNERSHIP PROPOSAL</h1>
+                            <h1 className='text-center text-md-start fw-bold sora-font'>{t('joinUs.header')}</h1>
                             <p className='text-center text-md-start sora-font'>
-                                The primary objective of this proposal is to secure a financial partnership with you/your organization to support the procurement of essential equipment for our Cleaning Agency, God Son Facility Management & Consultancy Services. This partnership will enable us to significantly enhance our cleaning operations, improve service quality, and expand our client base, ultimately leading to increased profitability and sustainability for both our organizations.
+								{t('joinUs.p')}
                             </p>
                         </div>
                         <div className="col-sm-12 col-md-6 p-5">
@@ -21,7 +24,7 @@ const Proposal = props => {
                 </div>
             </div>
             <div className="container mt-5 d-flex flex-column align-items-center">
-                <h5>SPECIFIC OBJECTIVES</h5>
+                <h5>{t('joinUs.objectives')}</h5>
                 <div className="row mt-3">
                     <div className="col mb-3">
                         <div className="container ps-md-3 pe-md-3">
@@ -30,9 +33,9 @@ const Proposal = props => {
                                     <img src={IMAGES.objective} width="50" />
                                 </div>
                                 <div className="col-md-11 col-sm-12">
-                                    <h5 className='fw-bold'>Equip our Agency with State-of-the-Art Cleaning Technology</h5>
+                                    <h5 className='fw-bold'>{t('joinUs.objectiveOneH')}</h5>
                                     <span className='mt-4'>
-                                        By securing funding from your esteemed organization, we aim to acquire advanced cleaning equipment such as listed under the proposed procurement table. This will significantly improve the efficiency and effectiveness of our cleaning services, allowing us to handle larger and more complex projects.
+										{t('joinUs.objectiveOneP')}
                                     </span>
                                 </div>
 							</div>
@@ -42,9 +45,9 @@ const Proposal = props => {
                                     <img src={IMAGES.objective} width="50" />
                                 </div>
                                 <div className="col-md-11 col-sm-12">
-                                    <h5 className='fw-bold'>Enhance Service Quality and Client Satisfaction</h5>
+                                    <h5 className='fw-bold'>{t('joinUs.objectiveTwoH')}</h5>
                                     <span className='mt-4'>
-                                        With superior equipment, our cleaning teams will be able to deliver a higher standard of service, exceeding client expectations and building long-term relationships. This will lead to increased client retention and positive wordof-mouth referrals, further boosting our business growth.
+										{t('joinUs.objectiveTwoP')}
                                     </span>
                                 </div>
 							</div>
@@ -54,9 +57,9 @@ const Proposal = props => {
                                     <img src={IMAGES.objective} width="50" />
                                 </div>
                                 <div className="col-md-11 col-sm-12">
-                                    <h5 className='fw-bold'>Expand our Client Base and Market Reach</h5>
+                                    <h5 className='fw-bold'>{t('joinUs.objectiveThreeH')}</h5>
                                     <p>
-                                        Improved capabilities and service quality will allow us to tap into new market segments and attract larger clients with more demanding cleaning needs. This expansion will generate additional revenue streams and solidify our position as a leading cleaning service provider in Lagos.
+										{t('joinUs.objectiveThreeP')}
                                     </p>
                                 </div>
 							</div>
@@ -66,9 +69,9 @@ const Proposal = props => {
                                     <img src={IMAGES.objective} width="50" />
                                 </div>
                                 <div className="col-md-11 col-sm-12">
-                                    <h5 className='fw-bold'>Demonstrate Financial Viability and Return on Investment</h5>
+                                    <h5 className='fw-bold'>{t('joinUs.objectiveFourH')}</h5>
                                     <p>
-                                    This proposal will outline a clear financial plan detailing the cost of equipment acquisition, projected revenue growth, and the anticipated return on investment for your partnership.
+                                    	{t('joinUs.objectiveFourP')}
                                     </p>
                                 </div>
 							</div>
@@ -93,37 +96,37 @@ const Proposal = props => {
 						</div>
 						<div className="col-12 col-md-7 order-1 order-md-1 d-flex flex-column align-items-center justify-content-center">
 							<div className="p-2">
-								<h2 className="display-4 sora-font fw-bold">Mutual Benefits</h2>
-                                <p>By partnering with us, you will benefit from</p>
+								<h2 className="display-4 sora-font fw-bold">{t('joinUs.benefits')}</h2>
+                                <p>{t('joinUs.benefitP')}</p>
 								<ul>
 									<li>
-										<h4>Return on Investment</h4>
+										<h4>{t('joinUs.benefitHone')}</h4>
 										<p>
-                                        Expectedly, more equipment will give us more return on investment which will be shared by us in accordance to our mutually signed agreement.
+											{t('joinUs.benefitPone')}
 										</p>
 									</li>
 									<li>
-										<h4>Positive Brand Association</h4>
+										<h4>{t('joinUs.benefitHtwo')}</h4>
 										<p>
-                                        Your organization will be associated with a reputable and successful cleaning agency, enhancing your corporate image and community engagement.
+                                        	{t('joinUs.benefitPtwo')}
 										</p>
 									</li>
 									<li>
-										<h4>Increased Visibility and Reach</h4>
+										<h4>{t('joinUs.benefitHthree')}</h4>
 										<p>
-                                        our logo and brand will be displayed on our cleaning equipment and promotional materials, expanding your reach and brand awareness in Lagos.
+                                        	{t('joinUs.benefitPthree')}
 										</p>
 									</li>
 									<li>
-										<h4>Fulfillment of Social Responsibility Goals</h4>
+										<h4>{t('joinUs.benefitHfour')}</h4>
 										<p>
-                                        By supporting our agency's environmental sustainability initiatives through efficient cleaning practices, your organization will contribute to a cleaner and healthier Nigeria.
+                                        	{t('joinUs.benefitPfour')}
 										</p>
 									</li>
 									<li>
-										<h4>Social Responsibility</h4>
+										<h4>{t('joinUs.benefitHfive')}</h4>
 										<p>
-											We recognize our role in contributing to the well-being of the communities we serve, engaging in responsible business practices and supporting worthy causes.
+											{t('joinUs.benefitPfive')}
 										</p>
 									</li>
 								</ul>
@@ -137,10 +140,10 @@ const Proposal = props => {
 					<div className="col-12 col-md-6 d-flex flex-column align-items-center justify-content-center">
 						<div className="">
 							<h1 className="display-5 fw-bold">
-								Bright Future ahead
+								{t('joinUs.brightFuture')}
 							</h1>
 							<p>
-                                This partnership proposal presents a mutually beneficial opportunity for you and us. By securing your financial support, we can achieve our objective of acquiring advanced cleaning equipment, enhancing our service quality, expanding our client base, and ultimately generating increased profitability and sustainability for both our organizations. We are confident that this collaboration will be a success, contributing positively to the World
+								{t('joinUs.brightFutureP')}
 							</p>
 						</div>
 					</div>
