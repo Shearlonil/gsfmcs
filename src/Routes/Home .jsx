@@ -95,7 +95,7 @@ const Home = () => {
 									</li>
 									<li>
 										<h6>German Corporate Office</h6>
-										<p>Schiesstale 3, 71083, Herrenberg, Germany</p>
+										<p>Schiess mauer 4 71083, Herrenberg, Germany</p>
 									</li>
 								</ul>
 								<a href="" className="btn btn-danger">View Locations</a>
