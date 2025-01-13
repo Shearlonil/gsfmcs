@@ -1,6 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import { useTranslation } from 'react-i18next';  
+import { useTranslation } from 'react-i18next';
 import { IoLogoWhatsapp } from "react-icons/io";
 import { CgArrowTopRight, CgProfile } from "react-icons/cg";
 import { IoStarSharp } from "react-icons/io5";
@@ -111,10 +111,9 @@ const Home = () => {
 				<div className="row p-2 mb-5 d-flex flex-row align-items-center">
 					<div className="col-md-6 col-sm-12 mb-4 d-flex flex-column gap-3">
 						<div className="pe-md-4">
-							<h6 className="bg-success w-50 text-center rounded text-white p-2 fw-bold sora-font shadow">Machineries</h6>
-							<h1 className=" sora-font fw-bold">Access to modern technologies and hardwares</h1>
-							<p>As a German-trained Consultant and Cleaners, we are privileged to access the latest cleaning
-							technology/technique. We make use of different cleaning materials</p>
+							<h6 className="bg-success w-50 text-center rounded text-white p-2 fw-bold sora-font shadow">{t('homePage.machineries')}</h6>
+							<h1 className=" sora-font fw-bold">{t('homePage.machineriesH')}</h1>
+							<p>{t('homePage.machineriesP')}</p>
 							<div className="d-flex flex-column gap-1 bg-light border shadow rounded-3 p-4">
 								<div className="d-flex flex-row gap-3 align-items-center">
 									<div className="d-flex flex-row align-items-center gap-2 border-end pe-3">
@@ -134,7 +133,7 @@ const Home = () => {
 									<IoStarSharp className="text-warning" />
 								</span>
 								<p className="text-success fw-bold">
-									Due to the input in modern techonogies and machineries used by GSFMCS, their cleaning prowess is second to none
+									{t('homePage.machineriesTestimonial')}
 								</p>
 							</div>
 						</div>
@@ -146,7 +145,7 @@ const Home = () => {
 										<img src={IMAGES.garbageTruck} width="50" />
 									</div>
 									<div className="col-9">
-										<h5>Garbage Trucks</h5>
+										<h5>{t('homePage.garbageTruck')}</h5>
 									</div>
 							</div>
 							<hr />
@@ -155,11 +154,11 @@ const Home = () => {
 										<img src={IMAGES.roadSweeper} width="50" />
 									</div>
 									<div className="col-10">
-										<h5>Motorized Road Sweepers</h5>
+										<h5>{t('homePage.roadSweepers')}</h5>
 										<ul>
-											<li>Waste collector</li>
-											<li>Rotating brush sweepers</li>
-											<li>Removed trash, debris, dir, leaves etc</li>
+											<li>{t('homePage.roadSweeperPointOne')}</li>
+											<li>{t('homePage.roadSweeperPointTwo')}</li>
+											<li>{t('homePage.roadSweeperPointThree')}</li>
 										</ul>
 									</div>
 							</div>
@@ -169,7 +168,7 @@ const Home = () => {
 										<img src={IMAGES.vacuumClearner} width="50" />
 									</div>
 									<div className="col-9">
-										<h5>Industrial Wet Vacuum Cleaners</h5>
+										<h5>{t('homePage.vacuumCleaners')}</h5>
 									</div>
 							</div>
 							<hr />
@@ -178,12 +177,12 @@ const Home = () => {
 										<img src={IMAGES.clearningTrolley} width="50" />
 									</div>
 									<div className="col-9">
-										<h5>Multipurpose Cleaning Trolley</h5>
+										<h5>{t('homePage.cleaningTrolley')}</h5>
 										<ul>
-											<li>Mop kits</li>
-											<li>Color coded pails</li>
-											<li>Dust bin</li>
-											<li>Storage Drawers</li>
+											<li>{t('homePage.cleaningTrolleyPointOne')}</li>
+											<li>{t('homePage.cleaningTrolleyPointTwo')}</li>
+											<li>{t('homePage.cleaningTrolleyPointThree')}</li>
+											<li>{t('homePage.cleaningTrolleyPointFour')}</li>
 										</ul>
 									</div>
 							</div>
@@ -193,7 +192,7 @@ const Home = () => {
 										<img src={IMAGES.floorScurbber} width="50" />
 									</div>
 									<div className="col-10">
-										<h5>Floor Scrubbers and Drainers</h5>
+										<h5>{t('homePage.floorScrubbers')}</h5>
 									</div>
 							</div>
 						</div>
@@ -203,9 +202,9 @@ const Home = () => {
 				<div className="row p-2 d-flex flex-row align-items-center flex-md-row-reverse">
 					<div className="col-md-6 col-sm-12 mb-4 d-flex flex-column gap-3">
 						<div className="ps-md-4">
-							<h6 className="bg-primary w-50 text-center rounded text-white p-2 fw-bold sora-font shadow">Cleaning Chemicals</h6>
-							<h1 className=" sora-font fw-bold">Quality and environmental friendly cleaning chemicals</h1>
-							<p>All cleaning chemicals are European standard certified and they offer the best hygiene possible, while delivering germ-free environment</p>
+							<h6 className="bg-primary w-50 text-center rounded text-white p-2 fw-bold sora-font shadow">{t('homePage.cleaningChemical')}</h6>
+							<h1 className=" sora-font fw-bold">{t('homePage.cleaningChemicalH')}</h1>
+							<p>{t('homePage.cleaningChemicalP')}</p>
 							<div className="d-flex flex-column gap-1 bg-light border shadow rounded-3 p-4">
 								<div className="d-flex flex-row gap-3 align-items-center">
 									<div className="d-flex flex-row gap-2 border-end pe-3">
@@ -225,7 +224,7 @@ const Home = () => {
 									<IoStarSharp className="text-warning" />
 								</span>
 								<p className="text-primary fw-bold">
-									I've seen and witnessed several cleaning companies but the professional services rendered by GSFMCS is the best so far.
+									{t('homePage.cleaningChemicalTestimonial')}
 								</p>
 							</div>
 						</div>
@@ -237,7 +236,7 @@ const Home = () => {
 									<img src={IMAGES.cleaningChemical} width="50" />
 								</div>
 								<div className="col-9">
-									<h5>Scrubbing Chemicals</h5>
+									<h5>{t('homePage.scrubbingChemical')}</h5>
 								</div>
 							</div>
 							<hr />
@@ -246,7 +245,7 @@ const Home = () => {
 									<img src={IMAGES.polishChemical} width="50" />
 								</div>
 								<div className="col-9">
-									<h5>Polishing Chemicals</h5>
+									<h5>{t('homePage.polishingChemical')}</h5>
 								</div>
 							</div>
 							<hr />
@@ -255,7 +254,7 @@ const Home = () => {
 									<img src={IMAGES.varnishes} width="50" />
 								</div>
 								<div className="col-9">
-									<h5>Varnishes</h5>
+									<h5>{t('homePage.varnishes')}</h5>
 								</div>
 							</div>
 							<hr />
@@ -264,7 +263,7 @@ const Home = () => {
 									<img src={IMAGES.waxing} width="50" />
 								</div>
 								<div className="col-9">
-									<h5>Waxing Chemicals</h5>
+									<h5>{t('homePage.waxingChemical')}</h5>
 								</div>
 							</div>
 							<hr />
@@ -273,7 +272,7 @@ const Home = () => {
 									<img src={IMAGES.waxingTwo} width="50" />
 								</div>
 								<div className="col-9">
-									<h5>Colour Protector</h5>
+									<h5>{t('homePage.colorProtector')}</h5>
 								</div>
 							</div>
 							<hr />
@@ -303,36 +302,36 @@ const Home = () => {
 						</div>
 						<div className="col-12 col-md-7 order-0 order-md-1 d-flex flex-column align-items-center justify-content-center">
 							<div className="p-2">
-								<h2 className="display-4 sora-font fw-bold">Our Values</h2>
+								<h2 className="display-4 sora-font fw-bold">{t('homePage.ourValues')}</h2>
 								<ul>
 									<li>
-										<h4>Integrity</h4>
+										<h4>{t('homePage.ourValuesPointOneH')}</h4>
 										<p>
-											We conduct ourselves with honesty, transparency, and ethical principles in all our dealings, earning the trust and respect of our clients, employees, and stakeholders.
+											{t('homePage.ourValuesPointOneP')}
 										</p>
 									</li>
 									<li>
-										<h4>Innovation</h4>
+										<h4>{t('homePage.ourValuesPointTwoH')}</h4>
 										<p>
-											We embrace creativity and continuous improvement, seeking new and effective solutions to enhance the value we deliver to our clients.
+											{t('homePage.ourValuesPointTwoP')}
 										</p>
 									</li>
 									<li>
-										<h4>Excellence</h4>
+										<h4>{t('homePage.ourValuesPointThreeH')}</h4>
 										<p>
-											We strive for the highest standards in everything we do, exceeding expectations and delivering exceptional results.
+											{t('homePage.ourValuesPointThreeP')}
 										</p>
 									</li>
 									<li>
-										<h4>Client Focus</h4>
+										<h4>{t('homePage.ourValuesPointFourH')}</h4>
 										<p>
-											We are committed to understanding and exceeding our clients' needs, building long-term partnerships based on mutual trust and collaboration.
+											{t('homePage.ourValuesPointFourP')}
 										</p>
 									</li>
 									<li>
-										<h4>Social Responsibility</h4>
+										<h4>{t('homePage.ourValuesPointFiveH')}</h4>
 										<p>
-											We recognize our role in contributing to the well-being of the communities we serve, engaging in responsible business practices and supporting worthy causes.
+											{t('homePage.ourValuesPointFiveP')}
 										</p>
 									</li>
 								</ul>
@@ -345,18 +344,16 @@ const Home = () => {
 				<div className="row container mx-auto">
 					<div className="col-12 col-md-6 d-flex flex-column align-items-center justify-content-center">
 						<div className="">
-							<h4>WHY CHOOSE US?</h4>
+							<h4>{t('homePage.whyChooseUs')}</h4>
 							<h1 className="display-5 fw-bold">
-								We constantly evolve, embrace innovation, and strive to be the best.
+								{t('homePage.whyChooseUsH')}
 							</h1>
 							<p>
-								Our environment has a large impact on our health and well being,
-								an important part of living well is doing our part to take care
-								of the environment.
+								{t('homePage.whyChooseUsP')}
 							</p>
 
 							<a className="btn btn-warning btn-lg" target="_blank" href="https://wa.me/+4915215341962">
-								Contact Us <CgArrowTopRight />
+								{t('homePage.chatWithUs')} <CgArrowTopRight />
 							</a>
 						</div>
 					</div>

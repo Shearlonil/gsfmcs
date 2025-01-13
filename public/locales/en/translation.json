@@ -1,5 +1,5 @@
 {  
-    "homePage": {  
+    "homePage": {
         "nextLevel": "NEXT LEVEL",
         "paragraph": "Professional facility management and cleaning services at your finger tips",
         "chatWithUs": "Chat with us",
@@ -53,5 +53,49 @@
         "whyChooseUs": "WHY CHOOSE US?",
         "whyChooseUsH": "We constantly evolve, embrace innovation, and strive to be the best.",
         "whyChooseUsP": "Our environment has a large impact on our health and well being, an important part of living well is doing our part to take care of the environment."
+    },
+    "csr": {
+        "header": "OUR CORPORATE SOCIAL RESPONSIBILITY (CSR) ACHIEVEMENT",
+        "pOne": "Year in year out God Son Facility Management and Consultancy Services (GSFMCS) is engaged giving back to the society through Sports event sponsorship which always come in Partnership with Hoffnung Sports Foundation (HSF). Both Innitiative is owned by Mr. Dapo Akiode.",
+        "pTwo": "God Son Facility Management and Consultancy Services is a frontrunner in encouraging young talented Athletes to making their social and private life better and secured.",
+        "ourJourney": "OUR JOURNEY",
+        "journeyOneH": "Partnership with HSF",
+        "journeyOneP": "2018 GSFMCS & HSF in conjunction with the Nigeria Table tennis Federation ( NTTF) hosted the 1st. Late Mrs. Anthonia Akiode South/West Table tennis Championship.",
+        "journeyTwoH": "Table Tennis Chanpionship Hosting",
+        "journeyTwoP": "2019 successful hosting of the 2nd Anthonia Bolanle Akiode South/West Table tennis Championship.",
+        "journeyThreeH": "Official Cleaning Company to the 2019 International Table tennis Federation (ITTF) Lagos Open",
+        "journeyThreeP": "God Son Facility Management and Consultancy Services was the official Cleaning Company to the 2019 International Table tennis Federation ( ITTF) Lagos Open.",
+        "journeyFourH": "One year full Equipment Sponsorship",
+        "journeyFourP": "2020 GSFMCS financed a 1 year full equipment sponsorship to Ogun State born Badminton Senior National player Tunde Bankole via its International partner Victor International GmbH Germany."
+    },
+    "aboutUs": {
+        "header": "About Us",
+        "pOne": "God Son Facility Management and Consultancy Services (GSFMCS) is a German-trained cleaners and cleaning consultant with over ten (10) years of provable working experience.",
+        "pTwo": "Our Company’s goal is to professionally clean and service Nigerians to the best of our abilities and in the highest standards possible.",
+        "impressiveStats": "Impressive Stats and Achievements You Can Trust",
+        "yearsIn": "Years in",
+        "business": "Business",
+        "projects": "Projects",
+        "completed": "Completed",
+        "clients": "Client",
+        "satisfaction": "Satisfaction",
+        "service": "Service",
+        "coverage": "Coverage",
+        "ourMission": "Our mission for your facility",
+        "ourMissionP": "To empower our clients to achieve optimal operational efficiency and asset value through customized facility management solutions, delivered with professionalism, technical expertise, and unwavering commitment to their needs.",
+        "ourVision": "Our Vision",
+        "ourVisionP": "To be the premier provider of facility management and consultancy services in Nigeria, driven by integrity, innovation, and exceptional customer service, while upholding deep ethical principles in our conduct.",
+        "ourStory": "OUR STORY",
+        "qualityServices": "Quality Services for All Your Facilities",
+        "qualityServicesIntro": "Cleaning services is a serious and dutiful business in the western world and it has gone beyond just sweeping, mopping and washing as there are new discoveries about various micro-organisms that thrive conveniently after the aforementioned cleaning processes had been carried out.",
+        "qualityServicesOneH": "Work Force",
+        "qualityServicesOneP": "Our branch in Germany is build with countless experience workers.",
+        "qualityServicesOnePtwo": "We have over 25 active workers in Nigeria",
+        "qualityServicesTwoH": "Specialization",
+        "qualityServicesTwoP": "We specializes in the cleaning of both Commercial and Residential Structures like Airports, Roads, Banks, Houses, Hotels, Retail Outlets, Hospitals, etc.",
+        "qualityServicesTwoPtwo": "Our cleaning expertise covers both indoor and outdoor cleaning, industrial cleaning, maintenance cleaning, sewage management and disposal, refrigeration cleaning, gardening and horticultural cleaning services, construction cleaning, VIP cleaning and many others."
+    },
+    "joinUs": {
+
     }
 }

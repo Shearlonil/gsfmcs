@@ -1,5 +1,5 @@
 {  
-    "homePage": {  
+    "homePage": {
         "nextLevel": "NÄCHSTE EBENE",
         "paragraph": "Professionelle Facility Management und Reinigungsdienste auf knopfdruck",
         "chatWithUs": "Chatten Sie mit uns",
@@ -53,5 +53,46 @@
         "whyChooseUs": "WARUM UNS WÄHLEN?",
         "whyChooseUsH": "Wir entwickeln uns ständig weiter, sind innovativ und streben danach, die Besten zu sein.",
         "whyChooseUsP": "Unsere Umwelt hat einen großen Einfluss auf unsere Gesundheit und unser Wohlbefinden. Ein wichtiger Teil eines guten Lebens besteht darin, unseren Beitrag zum Schutz der Umwelt zu leisten."
+    },
+    "csr": {
+        "header": "Unsere Leistungen im Bereich Corporate Social Responsibility (CSR)",
+        "pOne": "Jahr für Jahr engagiert sich God Son Gebäudereinigung Service (GSFMCS) für die Gesellschaft, indem es Sportveranstaltungen sponsert, die immer in Partnerschaft mit der Hoffnung Sports Foundation (HSF) erfolgen. Beide Initiativen gehören Herrn Dapo Akiode.",
+        "pTwo": "God Son FGebäudereinigung Service ist ein Vorreiter bei der Förderung junger, talentierter Sportler, damit diese ihr soziales und privates Leben verbessern und sicherer gestalten können.",
+        "ourJourney": "UNSERE REISE",
+        "journeyOneH": "Partnerschaft mit HSF",
+        "journeyOneP": "2018 veranstalteten GSFMCS & HSF in Zusammenarbeit mit der Nigeria Table Tennis Federation (NTTF) die 1. Süd-/West-Tischtennismeisterschaft der verstorbenen Frau Anthonia Akiode.",
+        "journeyTwoH": "Ausrichtung der Tischtennis-Meisterschaft",
+        "journeyTwoP": "2019 erfolgreiche Ausrichtung der 2. Anthonia Bolanle Akiode Süd/West Tischtennismeisterschaft.",
+        "journeyThreeH": "Offizielles Reinigungsunternehmen für die Lagos Open 2019 des Internationalen Tischtennisverbands (ITTF)",
+        "journeyThreeP": "God Son FGebäudereinigung Service war das offizielle Reinigungsunternehmen der Lagos Open 2019 der International Table Tennis Federation (ITTF).",
+        "journeyFourH": "Ein Jahr vollständiges Ausrüstungssponsoring",
+        "journeyFourP": "2020 finanzierte GSFMCS über seinen internationalen Partner Victor International GmbH Deutschland ein einjähriges Vollausrüstungssponsoring für den im Bundesstaat Ogun geborenen Badminton-Nationalspieler Tunde Bankole."
+    },
+    "aboutUs": {
+        "header": "Über uns",
+        "pOne": "God Son FGebäudereinigung Service (GSFMCS) ist ein in Deutschland ausgebildetes Reinigungspersonal und Reinigungsberater mit über zehn (10) Jahren nachweisbarer Berufserfahrung.",
+        "pTwo": "Das Ziel unseres Unternehmens besteht darin, die Reinigungs- und Serviceleistungen für Nigerianer nach bestem Wissen und Gewissen und unter Einhaltung der höchstmöglichen Standards zu erbringen.",
+        "impressiveStats": "Beeindruckende Statistiken und Erfolge, denen Sie vertrauen können",
+        "yearsIn": "Jahre in",
+        "business": "Geschäft",
+        "projects": "Projekte",
+        "completed": "Vollendet",
+        "clients": "Kunde",
+        "satisfaction": "Zufriedenheit",
+        "service": "Service",
+        "coverage": "Abdeckung",
+        "ourMission": "Unser Auftrag für Ihre Einrichtung",
+        "ourMissionP": "Wir möchten unsere Kunden in die Lage versetzen, optimale Betriebseffizienz und einen höheren Anlagenwert durch maßgeschneiderte Facility-Management-Lösungen zu erreichen, die mit Professionalität, technischem Know-how und unermüdlichem Engagement für ihre Bedürfnisse umgesetzt werden.",
+        "ourVision": "Unsere Vision",
+        "ourVisionP": "Wir möchten der führende Anbieter von Facility-Management- und Beratungsdienstleistungen in Nigeria sein, der sich durch Integrität, Innovation und außergewöhnlichen Kundenservice auszeichnet und gleichzeitig tiefe ethische Grundsätze in unserem Handeln aufrechterhält.",
+        "ourStory": "UNSERE GESCHICHTE",
+        "qualityServices": "Qualitätsservices für alle Ihre Einrichtungen",
+        "qualityServicesIntro": "Reinigungsdienste sind in der westlichen Welt ein ernstes und pflichtbewusstes Geschäft und gehen über das bloße Fegen, Wischen und Waschen hinaus, da es neue Erkenntnisse über verschiedene Mikroorganismen gibt, die nach der Durchführung der oben genannten Reinigungsprozesse bequem gedeihen.",
+        "qualityServicesOneH": "Belegschaft",
+        "qualityServicesOneP": "Unsere Niederlassung in Deutschland besteht aus unzähligen erfahrenen Mitarbeitern.",
+        "qualityServicesOnePtwo": "Wir haben über 25 aktive Mitarbeiter in Nigeria",
+        "qualityServicesTwoH": "Spezialisierung",
+        "qualityServicesTwoP": "Wir sind auf die Reinigung gewerblicher und privater Gebäude wie Flughäfen, Straßen, Banken, Häuser, Hotels, Einzelhandelsgeschäfte, Krankenhäuser usw. spezialisiert.",
+        "qualityServicesTwoPtwo": "Unsere Reinigungskompetenz umfasst sowohl die Innen- als auch die Außenreinigung, die Industriereinigung, die Unterhaltsreinigung, die Abwasserbehandlung und -entsorgung, die Kältetechnikreinigung, Garten- und Gartenbaureinigungsdienste, die Baureinigung, die VIP-Reinigung und vieles mehr."
     }
 }

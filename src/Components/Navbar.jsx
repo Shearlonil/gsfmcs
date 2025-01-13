@@ -44,6 +44,14 @@ function NavBar() {
 						<Nav.Link
 							onClick={() => {
 								handleNavSelect();
+								navigate("/csr");
+							}}
+						>
+							<span className="navy-blue">CSR</span>
+						</Nav.Link>
+						<Nav.Link
+							onClick={() => {
+								handleNavSelect();
 								navigate("/about-us");
 							}}
 						>
@@ -56,14 +64,6 @@ function NavBar() {
 							}}
 						>
 							<span className="navy-blue">Join Us</span>
-						</Nav.Link>
-						<Nav.Link
-							onClick={() => {
-								handleNavSelect();
-								navigate("/csr");
-							}}
-						>
-							<span className="navy-blue">CSR</span>
 						</Nav.Link>
 
 						<Nav.Link
